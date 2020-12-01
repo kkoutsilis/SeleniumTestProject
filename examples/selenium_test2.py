@@ -30,6 +30,6 @@ try:
 except:
     driver.quit()
 
-time.sleep(2)
+time.sleep()
 driver.quit()
 
