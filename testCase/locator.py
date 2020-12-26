@@ -4,4 +4,4 @@ class MainPageLocators(object):
     GO_BUTTON = (By.ID,"submit")
 
 class SearchResultPageLocators(object):
-    pass
+    pass 

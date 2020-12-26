@@ -8,7 +8,6 @@ class BasePage(object):
     def __init__(self,driver):
         self.driver = driver
 
-
 class MainPage(BasePage):
 
     search_text_element = SearchTextElement() 
@@ -19,7 +18,6 @@ class MainPage(BasePage):
     def click_go_button(self):
         element = self.driver.find_element(*MainPageLocators.GO_BUTTON)
         element.click()
-
 
 class SearchResultPage(BasePage):
 
